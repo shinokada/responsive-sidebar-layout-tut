@@ -10,6 +10,7 @@
 		SidebarGroup,
 		SidebarItem,
 		SidebarWrapper,
+		SidebarDropdownWrapper,
 		Drawer,
 		CloseButton
 	} from 'flowbite-svelte';
