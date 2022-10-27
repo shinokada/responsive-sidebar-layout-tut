@@ -29,7 +29,7 @@
 	<NavUl {hidden} {divClass} {ulClass}>
 		<NavLi href="/">Home</NavLi>
 		<NavLi href="/pages/about">About</NavLi>
-		<NavLi href="https://github.com/themesberg/flowbite-svelte">GitHub</NavLi>
+		<NavLi href="https://github.com/shinokada/responsive-sidebar-layout-tut">GitHub</NavLi>
 	</NavUl>
 </Navbar>
 
