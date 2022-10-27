@@ -1,6 +1,6 @@
 ---
-dir: blog
-title: Awesome article 1
+dir: pages
+title: 'About'
 ---
 
 <script>
