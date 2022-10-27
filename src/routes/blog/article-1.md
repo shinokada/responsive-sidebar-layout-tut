@@ -1,6 +1,6 @@
 ---
 dir: blog
-title: 'Awesome article 1'
+title: Awesome article 1
 ---
 
 <script>
