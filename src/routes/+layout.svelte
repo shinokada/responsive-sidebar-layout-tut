@@ -15,12 +15,13 @@
 		CloseButton
 	} from 'flowbite-svelte';
 	import { Cog } from 'svelte-heros-v2';
+	export let data;
 	let divClass = 'w-full md:block md:w-auto pr-8';
 	let ulClass = 'flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium';
 </script>
 
 <Navbar let:hidden let:toggle>
-	<NavBrand href="/">
+	<NavBrand href="/" class="lg:ml-64">
 		<Cog />
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-4">
 			My Website
@@ -36,6 +37,7 @@
 
 <div class="flex px-4 mx-auto w-full">
 	<main class="lg:ml-72 w-full mx-auto">
+		{JSON.stringify(data)}
 		<slot />
 	</main>
 </div>
